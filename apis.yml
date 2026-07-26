@@ -1,7 +1,14 @@
 aid: endel
 name: Endel
-description: Endel is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Endel is a wellness technology company that generates personalized, adaptive
+  soundscapes to help people focus, relax, sleep, and stay active. Its patented
+  technology creates endless real-time audio that responds to inputs such as
+  time of day, weather, circadian rhythm, heart rate, and location, delivered
+  across iOS, Android, macOS, Windows, web, Apple Watch, Apple TV, Amazon Fire
+  TV, and Alexa. Endel is a consumer application; as of this profile it does not
+  publish a public developer API, SDK, or OpenAPI surface, so this repo captures
+  its identity and public web properties rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/endel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://endel.io/pages/index/opengraph.jpg
 tags:
 - Company
+- Wellness
+- Audio
+- Soundscapes
+- Music
+- Sleep
+- Focus
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://endel.io/
+- type: Blog
+  url: https://endel.io/blog
+- type: PrivacyPolicy
+  url: https://endel.io/privacy-policy
+- type: Support
+  url: https://endel.zendesk.com/
+- type: SignUp
+  url: https://app.endel.io/funnel/manifesto
+- type: DomainSecurity
+  url: security/endel-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
